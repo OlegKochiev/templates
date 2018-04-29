@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    width:auto;
+    margin: 0 auto 5px;
+    margin-top: 5px;
+    border: 2px solid #a0d6da;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.header {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 150px;
+    min-height: 40px;
+    border: 1px solid #f5e19d;
+}
+.nav-item {
+    width: 100px;
+    min-height: 25px;
+    margin-left: 10px;
+    border: 1px solid rgb(122, 27, 231);
+}
+.section {
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    min-height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.string1, .string2 {
+    min-height: 40px;
+    border: 1px solid rgb(236, 81, 81);
+}
+.string1 {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.string2 {
+    max-width: 400px;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title {
+    border: 1px solid rgb(81, 238, 178);
+    width:190px;
+    margin: 10px 20px;
+}
+.title-img {
+    width:140px;
+    min-height: 170px;   
+    margin: 0 auto;
+    margin-top: 5px; 
+    border: 1px solid rgb(238, 154, 206);
+}
+
+.title-text {
+    width: 70px;
+    min-height: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid rgb(250, 188, 95);
+}
+
+.title-description {
+    min-height: 40px;
+    width: 90px;
+    margin: 5px  auto 5px;
+    border: 1px solid rgb(43, 126, 122);
+}
+
+.footer {
+    width: 100%;
+    min-height: 30px;
+    
+
+
+    border: 1px solid rgb(6, 210, 224);
+}
