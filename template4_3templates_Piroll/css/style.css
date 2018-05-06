@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "Neon";
+    src: url('fonts/Neon.otf');
+}
+
+@font-face {
+    font-family: "Quantum";
+    src: url('fonts/Quantum.otf');
+}
+
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 8px;
+}
+
+.container {
+    width: 84vw;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    height: 7vw;
+}
+
+.header-cont {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-cont a {
+    font-weight: 700;
+    font-family: 'Neon';
+    color: rgb(91, 110, 110);
+    padding:6px 10px 4px 10px;
+}
+
+.active {
+    background-color: rgb(133, 189, 189)!important;
+    border-radius: 4px!important;
+    color: rgb(91, 110, 110)!important;
+}
+
+.header-cont a:hover {
+    background-color: rgb(133, 189, 189);
+    color: rgb(63, 21, 21);
+    border-radius: 4px;
+}
+
+
+.section {
+    background-color: rgb(248, 248, 248);
+    height: 21vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(97, 94, 94);
+}
+.section h1 {
+    font-family: 'Quantum';
+    margin: 15px 5px;
+}
+
+.section p {
+    font-family: 'Quantum';
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img1, .img2, .img3, .img4 {
+    width: 25%;
+    height: 250px;
+}
+
+.img1 {
+    background-color: rgb(248, 237, 237);
+}
+
+.img2 {
+    background-color: rgb(218, 212, 212);
+}
+
+.img3 {
+    background-color: rgb(253, 215, 215);
+}
+
+.img4 {
+    background-color: rgb(193, 214, 241);
+}
+
+.footer {
+    height: 210px;
+    background-color: #141414;
+}
+
+.footer-cont {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #626262;
+}
+
+.footer a {
+    color: #626262;
+}
+
+.footer a:hover {
+    color: rgb(172, 172, 172);
+}
+
+.foot-nav1 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.foot-nav1 p {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.foot-nav2 {
+    width: 51vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center {
+    width: 130px;
+    display: flex;    
+    flex-direction: row;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
